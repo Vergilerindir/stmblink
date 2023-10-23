@@ -19,7 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "string.h"
-#define zaman 10
+#define zaman 5
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
