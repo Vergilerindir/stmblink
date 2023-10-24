@@ -19,7 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "string.h"
-#define zaman 15
+const int SABIT = 10;
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -113,11 +113,11 @@ int main(void)
   {
     /* USER CODE END WHILE */
 	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
-	  HAL_Delay(zaman); // Toggle the pin every 1 second
 	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_14);
-	  HAL_Delay(zaman); // Toggle the pin every 1 second
 	  HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_7);
-	  HAL_Delay(zaman); // Toggle the pin every 1 second
+	  int i,j;
+	  for(i = 0;i < 32000;i++){for(j = 0;j < SABIT;j++);}
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
