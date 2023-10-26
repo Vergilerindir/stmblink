@@ -15,5 +15,5 @@ jobs:
 
       - name: Run x.sh
         run: |
-          chmod +x ~/gitartik/stmblink/fastblinktrio/x.sh
-          ~/gitartik/stmblink/fastblinktrio/x.sh
+          chmod +x ~/gitartik/stmblink/x.sh
+          ~/gitartik/stmblink/x.sh
