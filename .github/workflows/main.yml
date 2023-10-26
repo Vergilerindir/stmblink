@@ -11,6 +11,7 @@ jobs:
       - self-hosted
     steps:
       - name: Checkout code
+        run: sudo chown -R $USER:$USER /home/github/actions-runner/_work/{stmblink}
         uses: actions/checkout@v2
 
       - name: Run x.sh
