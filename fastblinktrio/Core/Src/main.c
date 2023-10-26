@@ -19,7 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "string.h"
-const int SABIT = 500;
+const int SABIT = 5;
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
