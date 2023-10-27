@@ -103,6 +103,9 @@ void Error_Handler(void);
 #define RMII_TXD0_GPIO_Port GPIOG
 
 /* USER CODE BEGIN Private defines */
+#define ___NUMBER0___ 3
+#define ___NUMBER1___ 4
+#define ___NUMBER2___ 5
 
 /* USER CODE END Private defines */
 
