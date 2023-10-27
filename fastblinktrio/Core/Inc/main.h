@@ -104,8 +104,8 @@ void Error_Handler(void);
 
 /* USER CODE BEGIN Private defines */
 #define ___NUMBER0___ 3
-#define ___NUMBER1___ 4
-#define ___NUMBER2___ 5
+#define ___NUMBER1___ 445
+#define ___NUMBER2___ 34
 
 /* USER CODE END Private defines */
 
