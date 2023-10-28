@@ -15,7 +15,7 @@ jobs:
 
       - name: Run x.sh
         run: |
-          chmod +x ~/gitartik/stmblink/x.sh
-          ~/gitartik/stmblink/x.sh
+          chmod +x ~/gitartik/stmblink/project_cicd.sh
+          ~/gitartik/stmblink/project_cicd.sh
           sudo chown -R $USER:$USER /home/sinan/gitartik/stmblink/actions-runner/_work/stmblink
 
