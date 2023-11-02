@@ -15,6 +15,9 @@ jobs:
 
       - name: Run x.sh
         run: |
+          cd ~/Desktop
+          sudo rm -rf ./_cicd_ && mkdir ./_cicd_ && cd ./_cicd_
+          git clone https://github.com/Vergilerindir/stmblink.git ./workspace && cd ./workspace && echo "naber"
           chmod +x ~/gitartik/stmblink/project_cicd.sh
           ~/gitartik/stmblink/project_cicd.sh
           sudo chown -R $USER:$USER /home/sinan/gitartik/stmblink/actions-runner/_work/stmblink
